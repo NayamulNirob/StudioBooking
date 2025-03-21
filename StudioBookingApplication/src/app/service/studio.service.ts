@@ -11,7 +11,7 @@ export class StudioService {
 
     constructor(private http: HttpClient) {}
 
-    private apiUrl = 'http://localhost:3000/Studios';
+    private apiUrl = 'https://json-server-deployment-4nnp.onrender.com/Studios';
     // private apiUrlbooking = 'http://localhost:3000/bookings';
 
     getStudios(): Observable<Studio[]> {
